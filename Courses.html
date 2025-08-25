@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses | UniBooks</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <nav class="navbar">
+      <div class="logo">📘 UniBooks</div>
+      <ul class="nav-links">
+        <li><a href="index.html">𝗛𝗢𝗠𝗘</a></li>
+        <li><a href="courses.html"> 𝗖𝗢𝗨𝗥𝗦𝗘𝗦</a></li>
+        <li><a href="library.html">   𝗟𝗜𝗕𝗥𝗔𝗥𝗬  </a></li>
+        <li><a href="about.html"> 𝗔𝗕𝗢𝗨𝗧  </a></li>
+        <li><a href="contact.html">𝗖𝗢𝗡𝗧𝗔𝗖𝗧</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="courses-section">
+    <h2>Browse Courses by Regulation & Language</h2>
+
+    <div class="filters">
+      <select id="regulation-filter">
+        <option value="all">All Regulations</option>
+        <option value="cbse">2021</option>
+        <option value="state">2022</option>
+        <option value="icse">2017</option>
+        <option value="anna">Anna University</option>
+      </select>
+
+      <select id="language-filter">
+        <option value="all">All Languages</option>
+        <option value="english">English</option>
+        <option value="tamil">Tamil</option>
+        <option value="hindi">Hindi</option>
+      </select>
+    </div>
+
+    <div class="course-grid" id="course-grid">
+      <div class="course-card" data-regulation="cbse" data-language="english">Bio-Tech-(English & Tamil)</div>
+      <div class="course-card" data-regulation="state" data-language="tamil">BME- (Tamil & English)</div>
+      <div class="course-card" data-regulation="icse" data-language="english">CSE-  (English & tamil & hindi)</div>
+      <div class="course-card" data-regulation="anna" data-language="english">Civil -  (English & Tamil)</div>
+      <div class="course-card" data-regulation="cbse" data-language="hindi">Mechanical- (Hindi)</div>
+      <div class="course-card" data-regulation="state" data-language="english">Robotics-  (English)</div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 UniBooks. All rights reserved.</p>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>

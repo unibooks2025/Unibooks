@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library | UniBooks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">📘 UniBooks</div>
+      <ul class="nav-links">
+       <li><a href="index.html">𝗛𝗢𝗠𝗘</a></li>
+        <li><a href="courses.html"> 𝗖𝗢𝗨𝗥𝗦𝗘𝗦</a></li>
+        <li><a href="library.html">   𝗟𝗜𝗕𝗥𝗔𝗥𝗬  </a></li>
+        <li><a href="about.html"> 𝗔𝗕𝗢𝗨𝗧  </a></li>
+        <li><a href="contact.html">𝗖𝗢𝗡𝗧𝗔𝗖𝗧</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="library-section">
+    <h2>Digital Textbook Library</h2>
+
+
+    <div class="filters">
+      <select id="subject-filter">
+        <option value="all">All Subjects</option>
+        <option value="maths">DATA SCIENCE</option>
+        <option value="physics">OOSE</option>
+        <option value="cse">OOPS</option>
+        <option value="bio">PYTHON</option>
+        <option value="maths">DATA structure-</option>
+        <option value="physics">DIGITAL MARKETING</option>
+        <option value="cse">HUMAN VALUES AND ETHICS</option>
+        <option value="bio">IT IN AGIRICULUTURE SYSTEM</option>
+      </select>
+
+      <select id="lang-filter">
+        <option value="all">All Languages</option>
+        <option value="english">English</option>
+        <option value="tamil">Tamil</option>
+      </select>
+    </div>
+
+    <div class="book-grid" id="book-grid">
+      <div class="book-card" data-subject="CSE" data-lang="english">
+        <h3>Data structure-</h3>
+        <p>2021- English</p>
+        <a href="#" class="btn">Preview</a>
+        <a href="#" class="btn download">Download</a>
+      </div>
+      <div class="book-card" data-subject="CSE" data-lang="tamil & English">
+        <h3>Python</h3>
+        <p>2017 - Tamil & english</p>
+        <a href="#" class="btn">Preview</a>
+        <a href="#" class="btn download">Download</a>
+      </div>
+      <div class="book-card" data-subject="CSE" data-lang="english">
+        <h3>Web Development - CSE</h3>
+        <p>Anna University - English</p>
+        <a href="#" class="btn">Preview</a>
+        <a href="#" class="btn download">Download</a>
+      </div>
+      <div class="book-card" data-subject="CSE" data-lang="english">
+        <h3>AIML</h3>
+        <p>CSE - English</p>
+        <a href="#" class="btn">Preview</a>
+        <a href="#" class="btn download">Download</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UniBooks. All rights reserved.</p>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
