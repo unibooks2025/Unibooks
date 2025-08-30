@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => 
+  {
   const regulationFilter = document.getElementById("regulation-filter");
   const languageFilter = document.getElementById("language-filter");
   const courses = document.querySelectorAll(".course-card");
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   regulationFilter.addEventListener("change", filterCourses);
   languageFilter.addEventListener("change", filterCourses);
 });
-// 📘 Book Filter Logic
+
 document.addEventListener("DOMContentLoaded", () => {
   const subjectFilter = document.getElementById("subject-filter");
   const langFilter = document.getElementById("lang-filter");
@@ -53,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   subjectFilter.addEventListener("change", filterBooks);
   langFilter.addEventListener("change", filterBooks);
 });
-// 📬 Contact Form Handler
+
 document.addEventListener("DOMContentLoaded", () => {
   const contactForm = document.getElementById("contact-form");
 
@@ -65,5 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
 
 
